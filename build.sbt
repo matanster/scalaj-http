@@ -1,6 +1,6 @@
 name := "scalaj-http"
 
-version := "2.2.1"
+version := "2.2.2"
 
 organization := "org.scalaj"
 
@@ -17,7 +17,7 @@ libraryDependencies += {
   "com.fasterxml.jackson.module" %% "jackson-module-scala" % jacksonVersion % "test"
 }
 
-crossScalaVersions := Seq("2.9.3", "2.10.5", "2.11.7")
+crossScalaVersions := Seq("2.10.5", "2.11.7")
 
 javacOptions ++= Seq("-source", "1.6", "-target", "1.6")
 
