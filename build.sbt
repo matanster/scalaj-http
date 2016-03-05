@@ -4,7 +4,7 @@ version := "2.2.2"
 
 organization := "org.scalaj"
 
-scalaVersion := "2.10.5"
+scalaVersion := "2.11.6"
 
 libraryDependencies ++= Seq(
   "junit"                % "junit"              % "4.11"          % "test",
@@ -17,7 +17,7 @@ libraryDependencies += {
   "com.fasterxml.jackson.module" %% "jackson-module-scala" % jacksonVersion % "test"
 }
 
-crossScalaVersions := Seq("2.10.5", "2.11.7")
+crossScalaVersions := Seq("2.11.6")
 
 javacOptions ++= Seq("-source", "1.6", "-target", "1.6")
 
